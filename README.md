@@ -1,7 +1,5 @@
 ### Hi there 👋
 
-![<username>'s Stats](https://github-readme-stats.vercel.app/api?username=FelipeMartinsFrudeli&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
-
 ## 🚀 About Me
 
 - 2nd year of ADS (Analysis and Development of Systems) course at Etec Sales Gomes.
@@ -9,7 +7,16 @@
 ## Tech Stack
 [![My Skills](https://skillicons.dev/icons?i=js,nodejs,react,mysql)](https://skillicons.dev)
 
- ## 🏆 Achievements
+## 🏆 Achievements
+
+## 👩‍💻 Stats
+
+<div align="center">
+  <a href="https://github.com/tiagosabadini">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=FelipeMartinsFrudeli&theme=vue-dark&show_icons=true&hide_border=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeMartinsFrudeli&layout=compact&langs_count=7&theme=vue-dark&show_icons=true&hide_border=true&count_private=true""/>
+</div>
+
  
 <!--
 **FelipeMartinsFrudeli/FelipeMartinsFrudeli** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
