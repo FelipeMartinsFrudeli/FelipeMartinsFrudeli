@@ -5,7 +5,7 @@
 - 2nd year of ADS (Analysis and Development of Systems) course at Etec Sales Gomes.
 
 ## Tech Stack
-[![My Skills](https://skillicons.dev/icons?i=js,nodejs,react,mysql)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,ts,nodejs,react,lua)](https://skillicons.dev)
 
 ## 🏆 Achievements
 
