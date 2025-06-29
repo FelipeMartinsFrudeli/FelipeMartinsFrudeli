@@ -57,7 +57,7 @@ SOLID, Domain-Driven Design, Clean Architecture, REST APIs, Object-Oriented Prog
 
 **Self-Employed** – *Game Developer*  
 📍 Remote • *2022 – 2024*  
-- Built *Benverse Protector* (16.3M+ visits) with Lua and Node.js.  
+- Built *Benverse Protector* (16.3M+ visits) with Lua in Roblox Studio platform.  
 - Applied OOP principles and maintained production systems without automated testing.  
 - Delivered updates in dynamic, fast-paced environments.
 
