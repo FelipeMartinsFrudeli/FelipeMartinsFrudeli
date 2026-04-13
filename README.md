@@ -7,7 +7,7 @@
 
 ### 💼 Summary
 
-- Backend developer with 1+ years of experience building scalable web and mobile applications.
+- Backend developer with 2+ years of experience building scalable web and mobile applications.
 - Skilled in **SOLID**, **Domain-Driven Design (DDD)**, and **Clean Architecture**.
 - Experience with **AWS Lightsail**, **S3**, and **Rekognition** for cloud infrastructure, storage, and facial recognition pipelines.
 - Built mobile features using **Firebase Crashlytics** and **Google Play Services Location** with **Kotlin** and **React Native**.
