@@ -27,17 +27,21 @@ Authoritative compact governance for the `FelipeMartinsFrudeli/FelipeMartinsFrud
 
 ### README Content Rules
 
-1. Lead with engineering identity tied to the current target: backend / fullstack engineer building toward ASML Application Software and top-tier global C++ SWE. Do not lead with founder, CEO, or "operator-architect" framing.
-2. Answer in order: who, what they currently ship at work, current stack, where they are heading, how to reach them.
-3. Prefer results over jargon. "Built X, did Y, outcome Z" beats listing patterns. Architecture vocabulary (DDD, Clean Architecture, hexagonal, EIP, SOLID) appears only when paired with a concrete consequence.
-4. The C++ pivot toward ASML Application Software may be stated as **in progress / current focus**, never overclaimed. "Currently building C++ depth" is fine; "C++ engineer" is not, until production C++ work exists.
-5. Employment framing must reflect the operator's actual contract structure: he is a **PJ third-party developer** with Petri Tecnologia (current employer of record) and with Plantoo (current client) — Petri also contracts work for Plantoo. Do not invent W2/CLT-style employer-employee framing.
-6. Open-source contributions to `paperclipai/paperclip` are **part of the stack he works with, not a job**. They can appear in the stack section as evidence of active OSS work; they must not appear as employment or "selected work".
-7. Roblox / `Benverse Protector` work is real production scale (16.3M+ visits) but is **not aligned with the current backend / fullstack engineering profile**. Keep at most a single one-line mention under prior work, never as headline proof. If brevity wins, omit entirely.
-8. Frudeli Softwares, Frudeli Blox Studio, and FRD Technologies / FRD Flow State are **out of scope** for this README. Frudeli Softwares is too small to add value to a CV-style surface; FRD Technologies is not a business yet. They are not mentioned.
-9. When listing tech stack, group by current level (production / in active pivot / supporting) so the C++ pivot is honestly framed.
-10. Goals must pair with active work. "Building C++ depth toward ASML Application Software" is acceptable because the curriculum is active.
-11. Contact path: at least one durable contact (LinkedIn or the approved commercial email at the personal domain). Do not publish private inboxes.
+1. **Shape:** the README is a short engineering RFC. Required sections in order: a one-line **status header** (status, track, next bet, long arc), **Summary**, **Background**, **Outcomes shipped**, **Open-source** (optional), **Direction**, **Contact**. No other top-level sections without operator approval.
+2. **Audience:** HR-friendly first, technically credible second. Anyone non-technical in an ASML / tier-1 hiring loop must be able to skim the document and walk away with one sentence: *"this person leaves systems measurably better than they found them."*
+3. **Results, not technologies.** The Outcomes section is the load-bearing part. Every bullet must lead with a verb + a measurable result (number, % change, before/after, feature shipped into production). Stack names are allowed only as supporting clauses, never as the headline of a bullet.
+4. **Refactors and features owned must be specific.** Describe what Felipe personally refactored or what feature he personally created on a project. Generic "worked on X" is banned. If a specific artefact, metric, or feature cannot be named, the bullet does not ship.
+5. **Numbers come from the vault, not invention.** Plantoo V3 refactor numbers (70 → 0 reliability, 3 → 0 security, 419 → 230 maintainability, 14 → 0 workflows directory, 1,472 LoC → 16 use cases, 1,605 imports across 478 files, 840 LoC auth → 9 use cases + 3 ports, 1,333 LoC remuneration → service port) are pulled from `.agents/.claude/memory/plantoo-v3-felipe-v2-refactor.md` in the NOTES_AGENT vault. Re-verify the vault before changing them.
+6. **Persuasive copywriting register, not marketing.** Short sentences. Strong verbs. One quoted line per major section is acceptable if it advances the reader. No exclamation points. No "passionate about", "results-driven", "love coding".
+7. Lead with engineering identity tied to the current target. Do not lead with founder, CEO, or "operator-architect" framing.
+8. The C++ pivot toward ASML Application Software is stated only as **in progress / current focus**, never overclaimed. "Building C++17/20 depth" is fine; "C++ engineer" is not, until production C++ work exists.
+9. **Employment framing.** Felipe is a **PJ third-party developer** with Petri Tecnologia (employer of record) and with Plantoo (client). Petri also contracts work for Plantoo. Do not invent W2/CLT-style framing.
+10. **Paperclip is OSS, not a job.** It appears in an Open-source section, never under work or as "selected work".
+11. **Roblox / Benverse Protector** is **not aligned** with the current backend / fullstack engineering profile and is **not** included on this surface. Kept on file in `context.md` as de-emphasized prior work only.
+12. **Out of scope on this surface:** Frudeli Softwares, Frudeli Blox Studio, FRD Technologies / FRD Flow State, internal agent infrastructure (NOTES_AGENT, MAIN_AGENT, vault tooling, SERVER_01), personal contact details beyond the approved public ones.
+13. **Architecture vocabulary** (DDD, Clean Architecture, hexagonal, SOLID, EIP) appears only when paired with the concrete consequence it produced. Never as identity markers, never decoratively.
+14. **Contact path:** the approved public email at the personal domain (`contato@felipefrudeli.com`), the LinkedIn URL, and the implicit GitHub. No private inboxes.
+15. **Length budget:** the rendered README should fit on two screens at 1080p. Cut adjectives before cutting facts.
 
 ### Allowed Surfaces
 

@@ -1,42 +1,53 @@
-## Felipe Frudeli
+# Felipe Frudeli — Engineering Profile
 
-Backend / fullstack engineer — São Paulo, Brazil.
-Currently building toward **ASML Application Software** in Veldhoven, NL. Long-game target: top-tier global C++ software engineering.
+> **Status:** Active · **Track:** Backend / Fullstack engineer · **Next bet:** ASML Application Software, Veldhoven (NL) · **Long arc:** Top-tier global C++ software engineering
 
-- LinkedIn: [felipe-martins-frudeli](https://linkedin.com/in/felipe-martins-frudeli)
-- Email: contato@felipefrudeli.com
+## Summary
 
----
+I move production codebases from "fragile, hard to change" to "stable, safe to ship". Recent example: I led the structural refactor of a Spring Boot 21 platform now serving customers in production — cutting reliability defects from **70 to 0**, security defects from **3 to 0**, maintainability debt by **−45%**, and eliminating an entire 14-file legacy "workflows" layer in the process.
 
-### Current work
+The kind of engineer hiring managers describe as: *"will leave the system measurably better than they found it."*
 
-Third-party (PJ) developer at **Petri Tecnologia** and **Plantoo**. Petri is my current employer of record and also delivers work to Plantoo, so part of what I ship for Plantoo flows through that relationship.
+## Background
 
-- **Plantoo V3** (2025–) — Owning backend and mobile slices on a Spring Boot + React + React Native platform for agribusiness. Migrated the V3 generation off the old Express/Vue stack onto Java 21 / Spring Boot for the backend and Vite-driven React + Expo React Native for the clients. Live web at `plantoo-v3.felipefrudeli.com`.
-- **Petri Tecnologia** (2024–) — Backend and mobile work across customer products. Shipped facial-recognition workflows on AWS (Rekognition + S3) into production, and GPS-tracked mobile features on Android (Kotlin) and React Native with Firebase Crashlytics in the loop.
+- **Country / time zone:** São Paulo, Brazil — open to relocation, EU eligibility track in progress.
+- **Current contract structure:** PJ third-party developer with **Petri Tecnologia** (employer of record) and **Plantoo** (client). Part of the Plantoo delivery flows through the Petri relationship.
+- **Education:** Technical degree in Systems Analysis and Development, ETEC Sales Gomes (Tatuí/SP) — completed 2025.
+- **Working language:** English (technical reading and writing), Portuguese (native).
 
----
+## Outcomes shipped
 
-### Stack
+### Plantoo V3 — platform refactor and live-go
 
-**Production today.** Java 21, Spring Boot, Maven. TypeScript / Node.js (NestJS, Express). React + Vite on the web. React Native (Expo) and Kotlin on mobile. PostgreSQL. Docker. AWS (S3, Rekognition, Lightsail). GitHub Actions.
+> Owned the structural refactor of the V3 generation of a multi-tenant agribusiness platform, taking it from a fragile state to a controlled production go-live.
 
-**In active pivot (2026).** C++17/20 — focused 16-week curriculum tied to the ASML Application Software bar. Not yet at production-claim depth; building it in the open.
+- **Reduced Sonar reliability issues from 70 to 0** and **security issues from 3 to 0** on the production API.
+- **Reduced maintainability debt by 45%** (419 → 230 issues), measured by an independent SonarQube scan post-refactor.
+- **Eliminated a 14-file legacy "workflows" layer**, the codebase's largest source of hidden coupling. Notable conversions:
+  - A single 1,472-line workflow class broken down into 16 cohesive use cases with a shared helper and an audit value record — preserving behavior verbatim.
+  - An 840-line authentication workflow rewritten as 9 use cases plus 3 service ports for login guarding and refresh-token handling.
+  - A 1,333-line remuneration workflow extracted to an explicit service port — clarifying boundaries between billing logic and the rest of the API.
+- **Locked architectural invariants in CI** so the gains hold under future change: every use case has a single typed entry point, every service has a clean interface/implementation split, and domain entities now carry their own behavior instead of being passive data bags.
+- **Built mechanical refactor tooling** (Python scripts) to compress over **1,600 imports across 478 files** safely and to extract repeated literals into named constants — converting a multi-week manual cleanup into a deterministic, reviewable pass.
 
-**Open-source I work with.** Active contributor to [paperclipai/paperclip](https://github.com/paperclipai/paperclip) — an open-source agent orchestration platform I use to operate, and where I push fixes and patterns upstream. Part of my toolchain, not a job.
+### Petri Tecnologia — features delivered into production
 
-**Architecture posture.** DDD, Clean Architecture, hexagonal boundaries, SOLID — applied where they reduce regressions and clarify contracts between services. Not used as identity markers.
+- **Shipped a facial-recognition feature** into a live customer product, using AWS Rekognition + S3 for the pipeline. Designed the integration so the recognition path could fail gracefully without blocking the rest of the user flow.
+- **Built GPS-tracked mobile features** on Android (Kotlin) and React Native, with Firebase Crashlytics in the loop so regressions surface within hours of release, not weeks.
+- **Hardened backend services in production** — including the Plantoo work above, where Petri is the contracting party.
 
-[![Stack](https://skillicons.dev/icons?i=java,spring,ts,js,nodejs,nestjs,react,reactnative,vue,kotlin,docker,git,aws,postgres,cpp)](https://skillicons.dev)
+## Open-source
 
----
+Active contributor to **[paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — an open-source agent orchestration platform. Push fixes and patterns upstream as part of using it day-to-day. Not employment; part of how I work.
 
-### Direction
+## Direction
 
-The 24-month bet is **ASML Application Software in Veldhoven** — C++17/20 pivot is the main lever; agent-infra OSS work runs in parallel as public proof of operating at the edge of the tooling layer. The longer arc is top-tier global software engineering at C++ depth.
+The 24-month bet is **ASML Application Software in Veldhoven**. The path is a focused C++17/20 ramp tied to ASML's interview bar, running in parallel with continued backend production work and open-source contributions. The longer arc is top-tier global software engineering at C++ depth — measured by external validation, not by self-assessment.
 
----
+I write English-first for international reach. EU work eligibility (jus sanguinis) is in progress as a parallel track.
 
-### Education
+## Contact
 
-**ETEC Sales Gomes** — Technical Degree in Systems Analysis and Development, Tatuí/SP. Completed 2025.
+- **Email:** [contato@felipefrudeli.com](mailto:contato@felipefrudeli.com)
+- **LinkedIn:** [felipe-martins-frudeli](https://linkedin.com/in/felipe-martins-frudeli)
+- **GitHub:** you are here.
