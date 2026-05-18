@@ -21,23 +21,22 @@ The kind of engineer hiring managers describe as: *"will leave the system measur
 
 > Owned the structural refactor of the V3 generation of a multi-tenant agribusiness platform, taking it from a fragile state to a controlled production go-live.
 
-- **Eliminated critical reliability and security risks** on the production API, improving release confidence for business-critical operations.
-- **Reduced maintainability debt by 45%**, lowering change friction and speeding up feature delivery cycles.
-- **Removed 100% of the legacy workflows layer** (14 files to 0), replacing hidden coupling with clear use-case boundaries.
-- **Implemented production features in the new architecture** for authentication and refresh-token control, work-order operations, and remuneration/billing boundaries.
-- **Shipped AGROOPS into controlled production go-live** with clearer contracts between API modules, reducing regression risk during ongoing feature delivery.
+- **Implemented a full backend architecture refactor** with explicit use-case boundaries for authentication, refresh-token control, work-order operations, and remuneration/billing flows.
+- **Reduced maintainability debt by 45%**, which lowered engineering friction and increased delivery speed for new product requests.
+- **Removed 100% of the legacy workflows layer**, reducing hidden coupling and making production incidents easier to isolate and fix.
+- **Delivered AGROOPS to controlled production go-live** with safer release behavior and better continuity for daily agribusiness operations.
 
 ### Petri Tecnologia — features delivered into production
 
-- **Shipped a facial-recognition feature** into a live customer product, using AWS Rekognition + S3 for the pipeline. Designed the integration so the recognition path could fail gracefully without blocking the rest of the user flow.
-- **Built offline-first farm-management mobile features** in React Native, with Crashlytics feedback loops to surface regressions within hours instead of weeks.
-- **Hardened backend services in production** — including the Plantoo work above, where Petri is the contracting party.
+- **Shipped a facial-recognition feature** into a live customer product using AWS Rekognition + S3, with fallback behavior to keep core user flows available even when recognition fails.
+- **Built offline-first farm-management mobile features** in React Native, improving field usability under unstable connectivity and reducing blocked operations.
+- **Hardened backend services in production** to support stable daily operation while product scope continued to expand.
 
 ### Additional product outcomes (Petri-owned software)
 
-- **Comodoro (delivery app, owned by Petri):** created from zero and evolved into production API + web delivery operations flows.
-- **Inovent (ERP + NF-e system, owned by Petri):** created from zero as a complete ERP and fiscal-document platform.
-- **IA Flow (support and tickets app, owned by Petri):** rebuilt from legacy code into a stable end-to-end support and ticketing system.
+- **Comodoro (delivery app, owned by Petri):** created from zero, implementing API + web operational flows for restaurants, drivers, and delivery lifecycle management.
+- **Inovent (ERP + NF-e system, owned by Petri):** created from zero as a complete ERP platform, including fiscal-document workflows, settings/admin surfaces, and access-control coverage.
+- **IA Flow (support and tickets app, owned by Petri):** rebuilt from legacy code, implementing queue processing, ticket lifecycle controls, and dedup logic to stabilize support throughput.
 
 ## Open-source
 
