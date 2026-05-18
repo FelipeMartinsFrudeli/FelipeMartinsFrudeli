@@ -8,3 +8,5 @@ id_rsa*
 .agents/
 node_modules/
 package*
+
+assets/
