@@ -17,7 +17,7 @@ The kind of engineer hiring managers describe as: *"will leave the system measur
 
 ## Outcomes shipped
 
-### Plantoo V3 — platform refactor and live-go
+### AGROOPS - PLANTOO — platform refactor and live-go
 
 > Owned the structural refactor of the V3 generation of a multi-tenant agribusiness platform, taking it from a fragile state to a controlled production go-live.
 
@@ -27,20 +27,18 @@ The kind of engineer hiring managers describe as: *"will leave the system measur
   - A single 1,472-line workflow class broken down into 16 cohesive use cases with a shared helper and an audit value record — preserving behavior verbatim.
   - An 840-line authentication workflow rewritten as 9 use cases plus 3 service ports for login guarding and refresh-token handling.
   - A 1,333-line remuneration workflow extracted to an explicit service port — clarifying boundaries between billing logic and the rest of the API.
-- **Locked architectural invariants in CI** so the gains hold under future change: every use case has a single typed entry point, every service has a clean interface/implementation split, and domain entities now carry their own behavior instead of being passive data bags.
-- **Built mechanical refactor tooling** (Python scripts) to compress over **1,600 imports across 478 files** safely and to extract repeated literals into named constants — converting a multi-week manual cleanup into a deterministic, reviewable pass.
 
 ### Petri Tecnologia — features delivered into production
 
 - **Shipped a facial-recognition feature** into a live customer product, using AWS Rekognition + S3 for the pipeline. Designed the integration so the recognition path could fail gracefully without blocking the rest of the user flow.
-- **Built offline-first farm-management mobile features** in Android (Kotlin) and React Native, with Crashlytics feedback loops to surface regressions within hours instead of weeks.
+- **Built offline-first farm-management mobile features** in React Native, with Crashlytics feedback loops to surface regressions within hours instead of weeks.
 - **Hardened backend services in production** — including the Plantoo work above, where Petri is the contracting party.
 
 ### Additional product outcomes (Petri-owned software)
 
-- **Comodoro (delivery app, owned by Petri):** delivering API and web product evolution for day-to-day delivery operations.
-- **Inovent (ERP + NF-e system, owned by Petri):** delivering production ERP and fiscal-document flows as a complete business system.
-- **IA Flow (support and tickets app):** rebuilt the full system end-to-end to restore support and ticket operation continuity.
+- **Comodoro (delivery app, owned by Petri):** evolving API and web flows used in daily delivery operations, with focus on reliability and operator speed.
+- **Inovent (ERP + NF-e system, owned by Petri):** delivering end-to-end ERP and fiscal-document workflows in one production system.
+- **IA Flow (support and tickets app, owned by Petri):** rebuilt the full system end-to-end, restoring ticket operations and support continuity.
 
 ## Open-source
 

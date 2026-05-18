@@ -26,14 +26,14 @@ Factual baseline the README must stay consistent with. When facts change, update
 
 ### Current work (public-relevant)
 
-- **Plantoo V3** (2025–) — current client work, partly routed through Petri. Stack in 2026: **Spring Boot (Java 21) backend, React + Vite web, Expo / React Native mobile**. Live surfaces: `https://plantoo-v3.felipefrudeli.com`, API at `https://plantoo-v3-api.felipefrudeli.com/agroops/health`. Felipe owns the structural refactor of the V3 API and active delivery across backend and mobile slices.
+- **AGROOPS - PLANTOO** (2025–) — current client work, partly routed through Petri. Stack in 2026: **Spring Boot (Java 21) backend, React + Vite web, Expo / React Native mobile**. Live surfaces: `https://plantoo-v3.felipefrudeli.com`, API at `https://plantoo-v3-api.felipefrudeli.com/agroops/health`. Felipe owns the structural refactor of the API and active delivery across backend and mobile slices.
 - **Petri Tecnologia** (2024–) — current employer of record. Delivery across customer products including AWS-based facial-recognition workflows and offline-first farm-management mobile features.
 - **Comodoro** (active context) — Petri-owned delivery app with API + web evolution work for operational flows.
 - **Inovent** (active context) — Petri-owned complete ERP + NF-e system with production business-flow evolution.
 - **IA Flow** (active context) — Petri-owned support and tickets app rebuilt end-to-end to restore operational continuity.
 - Prior Plantoo stack (Express backend, Vue web) is historical and should not be the current stack description.
 
-### Documented outcomes (Plantoo V3, sourced from vault — do not invent)
+### Documented outcomes (AGROOPS - PLANTOO, sourced from vault — do not invent)
 
 Source-of-truth: `/var/www/AGENTS/notes_agent/.agents/.claude/memory/plantoo-v3-felipe-v2-refactor.md` (state as of 2026-04-29 on branch `refactor/felipe-v2`).
 
@@ -50,15 +50,15 @@ Source-of-truth: `/var/www/AGENTS/notes_agent/.agents/.claude/memory/plantoo-v3-
 
 ### Skill grouping (current, honest)
 
-- **Production now (Petri + Plantoo V3):**
-  - Backend: Java 21, Spring Boot, Maven (Plantoo V3). TypeScript / Node.js (NestJS, Express) on legacy and parallel work at Petri.
+- **Production now (Petri + AGROOPS - PLANTOO):**
+  - Backend: Java 21, Spring Boot, Maven (AGROOPS - PLANTOO). TypeScript / Node.js (NestJS, Express) on legacy and parallel work at Petri.
   - Frontend: React + Vite.
-  - Mobile: React Native (Expo), Kotlin (Android) on legacy slices.
+  - Mobile: React Native (Expo).
   - Data: PostgreSQL.
   - Cloud / infra: AWS (S3, Rekognition), Docker, GitHub Actions.
 - **In active pivot (2026):** C++17/20 toward ASML Application Software bar. 16-week curriculum in `Plans/asml_career_path/c_pivot_16_week_curriculum.md`. **Currently below interview-pass level** — the README must not overclaim.
 - **Open-source stack (not a job):** active contributor to `paperclipai/paperclip` (agent orchestration platform). This is part of the toolchain Felipe uses to operate, plus public proof of working at the edge of agent tooling. **Must not be presented as employment or selected work.**
-- **Architecture posture:** DDD, Clean Architecture, hexagonal-style boundaries, SOLID, enterprise integration patterns — used when they pay off, never as identity markers. The Plantoo V3 refactor specifically pushed for stricter hexagonal boundaries and contract-first backend design.
+- **Architecture posture:** DDD, Clean Architecture, hexagonal-style boundaries, SOLID, enterprise integration patterns — used when they pay off, never as identity markers. The AGROOPS - PLANTOO refactor specifically pushed for stricter hexagonal boundaries and contract-first backend design.
 
 ### Prior experience (de-emphasized on this surface)
 
