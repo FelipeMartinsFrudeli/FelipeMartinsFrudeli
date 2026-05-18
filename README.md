@@ -34,9 +34,15 @@ The kind of engineer hiring managers describe as: *"will leave the system measur
 
 ### Additional product outcomes (Petri-owned software)
 
-- **Comodoro (delivery app, owned by Petri):** created from zero, implementing API + web operational flows for restaurants, drivers, and delivery lifecycle management.
-- **Inovent (ERP + NF-e system, owned by Petri):** created from zero as a complete ERP platform, including fiscal-document workflows, settings/admin surfaces, and access-control coverage.
-- **IA Flow (support and tickets app, owned by Petri):** rebuilt from legacy code, implementing queue processing, ticket lifecycle controls, and dedup logic to stabilize support throughput.
+- **Comodoro (delivery app, owned by Petri):**
+  - Implemented features: delivery-request lifecycle flows, restaurant/driver operational surfaces, and API + web dispatch routines.
+  - Business impact: reduced manual coordination in daily delivery operation and improved execution visibility for dispatch decisions.
+- **Inovent (ERP + NF-e system, owned by Petri):**
+  - Implemented features: ERP management surfaces (settings, users, profiles, permissions, audit logs), fiscal NF-e workflows, and core parties/products operation modules.
+  - Business impact: centralized critical business and fiscal flows in one system, reducing fragmented tooling across administrative operations.
+- **IA Flow (support and tickets app, owned by Petri):**
+  - Implemented features: asynchronous queue processing, ticket lifecycle controls (reminders/auto-close), per-customer ticket views, and dedup protections.
+  - Business impact: stabilized support throughput, reduced duplicate ticket noise, and improved operator response continuity.
 
 ## Open-source
 
