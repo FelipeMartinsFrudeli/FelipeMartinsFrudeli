@@ -23,10 +23,9 @@ The kind of engineer hiring managers describe as: *"will leave the system measur
 
 - **Reduced Sonar reliability issues from 70 to 0** and **security issues from 3 to 0** on the production API.
 - **Reduced maintainability debt by 45%** (419 → 230 issues), measured by an independent SonarQube scan post-refactor.
-- **Eliminated a 14-file legacy "workflows" layer**, the codebase's largest source of hidden coupling. Notable conversions:
-  - A single 1,472-line workflow class broken down into 16 cohesive use cases with a shared helper and an audit value record — preserving behavior verbatim.
-  - An 840-line authentication workflow rewritten as 9 use cases plus 3 service ports for login guarding and refresh-token handling.
-  - A 1,333-line remuneration workflow extracted to an explicit service port — clarifying boundaries between billing logic and the rest of the API.
+- **Removed 100% of the legacy workflows layer** (14 files to 0), replacing hidden coupling with clear use-case boundaries.
+- **Implemented production features in the new architecture** for authentication and refresh-token control, work-order operations, and remuneration/billing boundaries.
+- **Shipped AGROOPS into controlled production go-live** with clearer contracts between API modules, reducing regression risk during ongoing feature delivery.
 
 ### Petri Tecnologia — features delivered into production
 
@@ -36,9 +35,9 @@ The kind of engineer hiring managers describe as: *"will leave the system measur
 
 ### Additional product outcomes (Petri-owned software)
 
-- **Comodoro (delivery app, owned by Petri):** evolving API and web flows used in daily delivery operations, with focus on reliability and operator speed.
-- **Inovent (ERP + NF-e system, owned by Petri):** delivering end-to-end ERP and fiscal-document workflows in one production system.
-- **IA Flow (support and tickets app, owned by Petri):** rebuilt the full system end-to-end, restoring ticket operations and support continuity.
+- **Comodoro (delivery app, owned by Petri):** created from zero and evolved into production API + web delivery operations flows.
+- **Inovent (ERP + NF-e system, owned by Petri):** created from zero as a complete ERP and fiscal-document platform.
+- **IA Flow (support and tickets app, owned by Petri):** rebuilt from legacy code into a stable end-to-end support and ticketing system.
 
 ## Open-source
 

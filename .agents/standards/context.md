@@ -28,9 +28,9 @@ Factual baseline the README must stay consistent with. When facts change, update
 
 - **AGROOPS - PLANTOO** (2025–) — current client work, partly routed through Petri. Stack in 2026: **Spring Boot (Java 21) backend, React + Vite web, Expo / React Native mobile**. Live surfaces: `https://plantoo-v3.felipefrudeli.com`, API at `https://plantoo-v3-api.felipefrudeli.com/agroops/health`. Felipe owns the structural refactor of the API and active delivery across backend and mobile slices.
 - **Petri Tecnologia** (2024–) — current employer of record. Delivery across customer products including AWS-based facial-recognition workflows and offline-first farm-management mobile features.
-- **Comodoro** (active context) — Petri-owned delivery app with API + web evolution work for operational flows.
-- **Inovent** (active context) — Petri-owned complete ERP + NF-e system with production business-flow evolution.
-- **IA Flow** (active context) — Petri-owned support and tickets app rebuilt end-to-end to restore operational continuity.
+- **Comodoro** (active context) — Petri-owned delivery app created from zero, with production API + web operational flows.
+- **Inovent** (active context) — Petri-owned complete ERP + NF-e system created from zero for production business operations.
+- **IA Flow** (active context) — Petri-owned support and tickets app rebuilt from legacy code to restore operational continuity.
 - Prior Plantoo stack (Express backend, Vue web) is historical and should not be the current stack description.
 
 ### Documented outcomes (AGROOPS - PLANTOO, sourced from vault — do not invent)
@@ -42,9 +42,9 @@ Source-of-truth: `/var/www/AGENTS/notes_agent/.agents/.claude/memory/plantoo-v3-
 - Sonar maintainability issues: **419 → 230** (−45%) ✅
 - Anemic-entity violations (POL-3): **32 → 0** ✅
 - `application/workflows/` files: **14 → 0** (directory eliminated) ✅
-- WF-B7 `WorkOrdersWorkflow`: **1,472 LoC → 16 use cases** + shared helper + audit value record (behavior preserved).
-- WF-B1 `AuthWorkflow`: **840 LoC → 9 use cases + 3 service ports** (`AuthLoginGuard`, `RefreshTokenIssuer`, `RefreshTokenReader`).
-- WF-B8 `WorkOrderRemunerationWorkflow`: **1,333 LoC → service port** (interface in application + impl in infra).
+- Workflow layer migration: **100% removal** of legacy `application/workflows/` (14 files → 0) in favor of modular use-case structure.
+- Authentication and token flows moved to explicit use cases + service ports (`AuthLoginGuard`, `RefreshTokenIssuer`, `RefreshTokenReader`).
+- Work-order remuneration boundaries moved to explicit application service port + infrastructure implementation.
 - Architectural invariants enforced mechanically via `.agents/check-structure.sh` `--pol1` / `--pol3` flags.
 - Refactor tooling Felipe authored (Python): `prune_imports.py`, `prune_wildcards.py`, `collapse_imports.py`, `extract_consts.py` — used to compress **1,605 imports across 478 files**.
 
