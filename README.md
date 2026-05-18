@@ -1,39 +1,39 @@
 ## Felipe Frudeli
 
-Software engineer — São Paulo, Brazil.
-Building toward **ASML Application Software** in Veldhoven, NL. Long-game target: top-tier global C++ software engineering.
+Backend / fullstack engineer — São Paulo, Brazil.
+Currently building toward **ASML Application Software** in Veldhoven, NL. Long-game target: top-tier global C++ software engineering.
 
 - LinkedIn: [felipe-martins-frudeli](https://linkedin.com/in/felipe-martins-frudeli)
-- Email: felipem.frudeli.dev@gmail.com
+- Email: contato@felipefrudeli.com
 
 ---
 
-### Production work
+### Current work
 
-- **Benverse Protector** — Roblox game shipped solo in Lua. **16.3M+ visits** at peak. OOP-driven systems, live ops, fast-cadence updates against real player traffic without an automated test net. The closest thing I have to a "ran a small production environment by myself" credential.
-- **Petri Tecnologia** (2024–) — Fullstack engineer. Backend in NestJS and Express with DDD and SOLID; AWS Rekognition + S3 for facial-recognition pipelines; Android (Kotlin) and React Native mobile with Firebase Crashlytics and GPS tracking.
-- **Plantoo — Soluções para Agronegócios** (2025–) — Fullstack engineer on an agribusiness platform. Express backend, Vue and React Native clients, location-based services across the full product lifecycle.
-- **Paperclip agent platform** — active open-source contributor on [paperclipai/paperclip](https://github.com/paperclipai/paperclip): agent governance, sub-agent orchestration, operating-model patterns. Dominant signal on my GitHub through 2026.
+Third-party (PJ) developer at **Petri Tecnologia** and **Plantoo**. Petri is my current employer of record and also delivers work to Plantoo, so part of what I ship for Plantoo flows through that relationship.
+
+- **Plantoo V3** (2025–) — Owning backend and mobile slices on a Spring Boot + React + React Native platform for agribusiness. Migrated the V3 generation off the old Express/Vue stack onto Java 21 / Spring Boot for the backend and Vite-driven React + Expo React Native for the clients. Live web at `plantoo-v3.felipefrudeli.com`.
+- **Petri Tecnologia** (2024–) — Backend and mobile work across customer products. Shipped facial-recognition workflows on AWS (Rekognition + S3) into production, and GPS-tracked mobile features on Android (Kotlin) and React Native with Firebase Crashlytics in the loop.
 
 ---
 
 ### Stack
 
-**Production:** TypeScript, JavaScript, Node.js (NestJS, Express), PostgreSQL, Docker, GitHub Actions, REST API design. Mobile: Kotlin (Android), React Native, Firebase Crashlytics, Google Play Services Location. Frontend: Vue, React. Cloud: AWS (Lightsail, S3, Rekognition). Games: Lua, Roblox Studio at multi-million-visit scale.
+**Production today.** Java 21, Spring Boot, Maven. TypeScript / Node.js (NestJS, Express). React + Vite on the web. React Native (Expo) and Kotlin on mobile. PostgreSQL. Docker. AWS (S3, Rekognition, Lightsail). GitHub Actions.
 
-**In active pivot (2026):** C++17/20 — focused 16-week curriculum tied to the ASML Application Software bar. Not yet at production-claim depth; building it in the open.
+**In active pivot (2026).** C++17/20 — focused 16-week curriculum tied to the ASML Application Software bar. Not yet at production-claim depth; building it in the open.
 
-**Architecture posture:** DDD, Clean Architecture, hexagonal-style boundaries, SOLID, enterprise integration patterns — used when they pay off (clearer contracts, safer integrations, less operational rework), not as identity markers.
+**Open-source I work with.** Active contributor to [paperclipai/paperclip](https://github.com/paperclipai/paperclip) — an open-source agent orchestration platform I use to operate, and where I push fixes and patterns upstream. Part of my toolchain, not a job.
 
-[![Stack](https://skillicons.dev/icons?i=ts,js,nodejs,nestjs,react,reactnative,kotlin,vue,lua,docker,git,aws,postgres,cpp)](https://skillicons.dev)
+**Architecture posture.** DDD, Clean Architecture, hexagonal boundaries, SOLID — applied where they reduce regressions and clarify contracts between services. Not used as identity markers.
+
+[![Stack](https://skillicons.dev/icons?i=java,spring,ts,js,nodejs,nestjs,react,reactnative,vue,kotlin,docker,git,aws,postgres,cpp)](https://skillicons.dev)
 
 ---
 
 ### Direction
 
-The 24-month bet is **ASML Application Software in Veldhoven** — C++ pivot in progress, agent-infra OSS work running in parallel as public proof of working at the edge of the tooling layer. The longer arc is top-tier global software engineering at C++ depth.
-
-Outside that lane: scalable backend architecture, agent / orchestration infrastructure, observability and production debugging at scale.
+The 24-month bet is **ASML Application Software in Veldhoven** — C++17/20 pivot is the main lever; agent-infra OSS work runs in parallel as public proof of operating at the edge of the tooling layer. The longer arc is top-tier global software engineering at C++ depth.
 
 ---
 
