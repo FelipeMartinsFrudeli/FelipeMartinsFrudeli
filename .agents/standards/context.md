@@ -28,9 +28,9 @@ Factual baseline the README must stay consistent with. When facts change, update
 
 - **Plantoo V3** (2025–) — current client work, partly routed through Petri. Stack in 2026: **Spring Boot (Java 21) backend, React + Vite web, Expo / React Native mobile**. Live surfaces: `https://plantoo-v3.felipefrudeli.com`, API at `https://plantoo-v3-api.felipefrudeli.com/agroops/health`. Felipe owns the structural refactor of the V3 API and active delivery across backend and mobile slices.
 - **Petri Tecnologia** (2024–) — current employer of record. Delivery across customer products including AWS-based facial-recognition workflows and offline-first farm-management mobile features.
-- **Comodoro** (active context) — delivery and operations platform with API + web evolution work.
-- **Inovent** (active context) — production frontend architecture and component/system evolution work.
-- **IA Flow** (active context) — AI-enabled workflow and automation context under active development.
+- **Comodoro** (active context) — delivery app with API + web evolution work for operational flows.
+- **Inovent** (active context) — ERP context with production frontend architecture and business-flow evolution.
+- **IA Flow** (active context) — support and tickets app rebuilt end-to-end to restore operational continuity.
 - Prior Plantoo stack (Express backend, Vue web) is historical and should not be the current stack description.
 
 ### Documented outcomes (Plantoo V3, sourced from vault — do not invent)

@@ -12,7 +12,6 @@ The kind of engineer hiring managers describe as: *"will leave the system measur
 
 - **Country / time zone:** São Paulo, Brazil — open to relocation, EU eligibility track in progress.
 - **Current contract structure:** PJ third-party developer with **Petri Tecnologia** (employer of record) and **Plantoo** (client). Part of the Plantoo delivery flows through the Petri relationship.
-- **Active product contexts:** **Comodoro** (delivery + operations platform), **Inovent** (frontend architecture workstream), and **IA Flow** (AI-enabled workflow and automation context).
 - **Education:** Technical degree in Systems Analysis and Development, ETEC Sales Gomes (Tatuí/SP) — completed 2025.
 - **Working language:** English (technical reading and writing), Portuguese (native).
 
@@ -36,6 +35,12 @@ The kind of engineer hiring managers describe as: *"will leave the system measur
 - **Shipped a facial-recognition feature** into a live customer product, using AWS Rekognition + S3 for the pipeline. Designed the integration so the recognition path could fail gracefully without blocking the rest of the user flow.
 - **Built offline-first farm-management mobile features** in Android (Kotlin) and React Native, with Crashlytics feedback loops to surface regressions within hours instead of weeks.
 - **Hardened backend services in production** — including the Plantoo work above, where Petri is the contracting party.
+
+### Additional product outcomes
+
+- **Comodoro (delivery app):** delivering API and web product evolution for day-to-day delivery operations.
+- **Inovent (ERP):** delivering production ERP flows with structured frontend architecture.
+- **IA Flow (support and tickets app):** rebuilt the full system end-to-end to restore support and ticket operation continuity.
 
 ## Open-source
 
