@@ -51,3 +51,7 @@ I write English-first for international reach. EU work eligibility (jus sanguini
 - **Email:** [contato@felipefrudeli.com](mailto:contato@felipefrudeli.com)
 - **LinkedIn:** [felipe-martins-frudeli](https://linkedin.com/in/felipe-martins-frudeli)
 - **GitHub:** you are here.
+
+<p align="center">
+  <img src="./assets/gate-logic-footer.svg" alt="Semiconductor-inspired gate logic footer with animated signal pulses." width="900" />
+</p>

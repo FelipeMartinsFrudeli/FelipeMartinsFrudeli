@@ -1,0 +1,71 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="trace" x1="0" y1="90" x2="1200" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#35d9ff" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#35d9ff"/>
+      <stop offset="1" stop-color="#35d9ff" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="180" rx="18" fill="url(#bg)"/>
+
+  <g opacity="0.16">
+    <path d="M0 40H1200" stroke="#6de8ff" stroke-width="1"/>
+    <path d="M0 70H1200" stroke="#6de8ff" stroke-width="1"/>
+    <path d="M0 110H1200" stroke="#6de8ff" stroke-width="1"/>
+    <path d="M0 140H1200" stroke="#6de8ff" stroke-width="1"/>
+    <path d="M100 0V180" stroke="#6de8ff" stroke-width="1"/>
+    <path d="M260 0V180" stroke="#6de8ff" stroke-width="1"/>
+    <path d="M420 0V180" stroke="#6de8ff" stroke-width="1"/>
+    <path d="M580 0V180" stroke="#6de8ff" stroke-width="1"/>
+    <path d="M740 0V180" stroke="#6de8ff" stroke-width="1"/>
+    <path d="M900 0V180" stroke="#6de8ff" stroke-width="1"/>
+    <path d="M1060 0V180" stroke="#6de8ff" stroke-width="1"/>
+  </g>
+
+  <g stroke="#35d9ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80 90H220V58H340V122H470V90H620V60H760V120H900V90H1120" stroke="url(#trace)"/>
+    <path d="M220 58V122" opacity="0.5"/>
+    <path d="M620 60V120" opacity="0.5"/>
+    <path d="M900 58V122" opacity="0.5"/>
+  </g>
+
+  <g fill="none" stroke="#b6f6ff" stroke-width="2.5" opacity="0.95">
+    <path d="M312 48C326 48 338 58 342 72C338 86 326 96 312 96H276V48H312Z"/>
+    <path d="M596 50C610 50 622 60 626 74C622 88 610 98 596 98H560V50H596Z"/>
+    <circle cx="640" cy="74" r="5" fill="#b6f6ff"/>
+    <path d="M840 48C854 48 866 58 870 72C866 86 854 96 840 96H804V48H840Z"/>
+    <path d="M880 48V96"/>
+    <circle cx="892" cy="72" r="5" fill="#b6f6ff"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle r="5" fill="#9ff8ff">
+      <animateMotion dur="5.6s" repeatCount="indefinite" path="M80 90H220V58H340V122H470V90H620V60H760V120H900V90H1120"/>
+    </circle>
+    <circle r="4" fill="#35d9ff" opacity="0.85">
+      <animateMotion dur="5.6s" begin="1.6s" repeatCount="indefinite" path="M80 90H220V58H340V122H470V90H620V60H760V120H900V90H1120"/>
+    </circle>
+    <circle r="3.5" fill="#c7fbff" opacity="0.9">
+      <animateMotion dur="5.6s" begin="3.2s" repeatCount="indefinite" path="M80 90H220V58H340V122H470V90H620V60H760V120H900V90H1120"/>
+    </circle>
+  </g>
+
+  <g fill="#a0f3ff" font-family="monospace" font-size="13" letter-spacing="2">
+    <text x="70" y="35">INPUT A</text>
+    <text x="516" y="35">XOR</text>
+    <text x="788" y="35">XNOR</text>
+    <text x="1030" y="35">OUTPUT</text>
+  </g>
+</svg>
