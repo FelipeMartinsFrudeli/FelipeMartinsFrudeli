@@ -5,3 +5,6 @@
 *.key
 id_rsa*
 .DS_Store
+.agents/
+node_modules/
+package*
