@@ -4,10 +4,11 @@ Define the voice, vocabulary, and visual rules the README must follow. Derived f
 
 ### Voice
 
-- Archetype: operator-architect.
-- Short definition: someone who can enter a messy technical environment, understand what is fragile, define clearer boundaries, and move the system forward with less risk.
+- Archetype: serious software engineer pivoting upward. Public surface is engineering identity, not founder/CEO.
+- Short definition: someone who already operates production systems at real scale and is now compounding into deeper systems work (C++ / ASML Application Software / top-tier global SWE).
 - Sentence style: short to medium, concrete, consequence-oriented.
-- Tone: precise, sober, persuasive through judgment — never hype.
+- Tone: precise, sober, persuasive through evidence — never hype, never marketing voice.
+- Honesty bar: never overclaim a skill that is in active pivot. "Currently building C++ depth" is fine. "C++ engineer" is not, until production C++ work exists.
 
 ### Amplify
 

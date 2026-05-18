@@ -28,16 +28,17 @@ Authoritative compact governance for the `FelipeMartinsFrudeli/FelipeMartinsFrud
 
 ### README Content Rules
 
-1. The README must answer in order: who, what they do, what they ship, how to reach them. Anything that does not serve that order is decoration and should be removed.
-2. Lead with operator-architect framing: the ability to enter a messy technical environment, define clearer boundaries, and move the system forward with less risk. Do not lead with years of experience or job titles alone.
-3. Prefer concrete evidence over adjectives. "Built X with Y outcome" beats "passionate about X".
-4. Mention study, books, and architecture depth only when tied to a consequence (clearer contracts, safer integrations, reduced rework). See `STYLE.md`.
-5. When listing tech stack, group by intent (backend services, mobile, frontend, infra, AI/agents) rather than dumping every keyword. Skill icons are allowed but only as a secondary visual; the prose must stand on its own.
-6. Active business identities are **Frudeli Softwares** (software services / agency / Frudeli Blox Studio) and **FRD Technologies** (hardware + cognitive observability — FRD Flow State). They are sibling businesses, not nested. Never blur them.
-7. The Roblox track (`Benverse Protector`, 16.3M+ visits) is real proof of operating at scale; keep it when it serves the buyer story, do not hide it.
-8. Open-source agent orchestration work on `paperclipai/paperclip` is current and load-bearing for the operator-architect framing. Keep it visible.
-9. Goals like "becoming a Software Architect" are honest framing, but pair them with the work already happening, not as aspiration alone.
-10. Contact path: at least one durable contact (LinkedIn or commercial email). Do not publish private inboxes.
+1. The README is a CV-style surface for ASML / global tier-1 recruiters and senior IC hiring panels. It is **not** founder marketing and **not** a Brazilian agency page. Frudeli Softwares lives on `felipefrudeli.com`; this surface is engineering identity only.
+2. Lead with engineering identity tied to the current target: software engineer building toward ASML Application Software / top-tier C++ SW. Do not lead with founder/CEO framing.
+3. Answer in order: who, what they currently ship at scale, where they are heading, how to reach them. Anything that does not serve that order is decoration and should be removed.
+4. Prefer concrete evidence over adjectives. "Built X, Y users, Z outcome" beats "passionate about X". Production scale on Roblox (`Benverse Protector` — 16.3M+ visits) is one of the strongest proof points; keep it visible.
+5. Open-source agent orchestration work on `paperclipai/paperclip` is current load-bearing public activity. Keep it visible as evidence of working at the edge of agent tooling.
+6. Mention architecture depth (DDD, Clean Architecture, hexagonal, EIP, SOLID) only when tied to a consequence — clearer contracts, safer integrations, reduced rework. Never as identity markers.
+7. The C++ pivot toward ASML Application Software may be mentioned as **in progress / current focus**, but never overclaim depth. Honest framing — "currently building" — beats inflated framing.
+8. Frudeli Softwares, Frudeli Blox Studio, and FRD Technologies / FRD Flow State are **out of scope** for this README. Frudeli Softwares is too small to add value to a CV-style surface; FRD Technologies is not a business yet. If they need a mention, it is at most a one-line "founder of Frudeli Softwares (independent client work)" and never headline.
+9. When listing tech stack, group by intent and current level (production / active pivot / supporting) rather than dumping every keyword. Skill icons are allowed but only as a secondary visual; the prose must stand on its own.
+10. Goals must pair with the work already happening, not aspiration alone. "Building C++ depth toward ASML Application Software" is fine because the curriculum is active; "becoming a Software Architect" with no current architect work is not.
+11. Contact path: at least one durable contact (LinkedIn or commercial email). Do not publish private inboxes.
 
 ### Allowed Surfaces
 
