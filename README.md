@@ -23,7 +23,7 @@ The kind of engineer hiring managers describe as: *"will leave the system measur
 
 - **Implemented a full backend architecture refactor** with explicit use-case boundaries for authentication, refresh-token control, work-order operations, and remuneration/billing flows.
 - **Reduced maintainability debt by 45%**, which lowered engineering friction and increased delivery speed for new product requests.
-- **Removed 100% of the legacy workflows layer**, reducing hidden coupling and making production incidents easier to isolate and fix.
+- **Reduced delivery risk by retiring the legacy workflows layer**, which removed hidden coupling and improved incident isolation in production.
 - **Delivered AGROOPS to controlled production go-live** with safer release behavior and better continuity for daily agribusiness operations.
 
 ### Petri Tecnologia — features delivered into production
