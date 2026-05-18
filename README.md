@@ -4,7 +4,7 @@
 
 ## Summary
 
-I move production codebases from "fragile, hard to change" to "stable, safe to ship". Recent example: I led the structural refactor of a Spring Boot 21 platform now serving customers in production — cutting reliability defects from **70 to 0**, security defects from **3 to 0**, maintainability debt by **−45%**, and eliminating an entire 14-file legacy "workflows" layer in the process.
+I move production codebases from "fragile, hard to change" to "stable, safe to ship". Recent example: I led the structural refactor of a Spring Boot 21 platform now serving customers in production — eliminating critical reliability and security risks, reducing maintainability debt by **45%**, and removing a legacy workflows layer that was slowing delivery.
 
 The kind of engineer hiring managers describe as: *"will leave the system measurably better than they found it."*
 
@@ -21,8 +21,8 @@ The kind of engineer hiring managers describe as: *"will leave the system measur
 
 > Owned the structural refactor of the V3 generation of a multi-tenant agribusiness platform, taking it from a fragile state to a controlled production go-live.
 
-- **Reduced Sonar reliability issues from 70 to 0** and **security issues from 3 to 0** on the production API.
-- **Reduced maintainability debt by 45%** (419 → 230 issues), measured by an independent SonarQube scan post-refactor.
+- **Eliminated critical reliability and security risks** on the production API, improving release confidence for business-critical operations.
+- **Reduced maintainability debt by 45%**, lowering change friction and speeding up feature delivery cycles.
 - **Removed 100% of the legacy workflows layer** (14 files to 0), replacing hidden coupling with clear use-case boundaries.
 - **Implemented production features in the new architecture** for authentication and refresh-token control, work-order operations, and remuneration/billing boundaries.
 - **Shipped AGROOPS into controlled production go-live** with clearer contracts between API modules, reducing regression risk during ongoing feature delivery.

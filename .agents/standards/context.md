@@ -36,6 +36,7 @@ Factual baseline the README must stay consistent with. When facts change, update
 ### Documented outcomes (AGROOPS - PLANTOO, sourced from vault — do not invent)
 
 Source-of-truth: `/var/www/AGENTS/notes_agent/.agents/.claude/memory/plantoo-v3-felipe-v2-refactor.md` (state as of 2026-04-29 on branch `refactor/felipe-v2`).
+Public README copy rule: prefer percentage/business-impact phrasing; avoid absolute defect-count deltas on public profile text.
 
 - Sonar reliability issues: **70 → 0** ✅
 - Sonar security issues: **3 → 0** ✅
