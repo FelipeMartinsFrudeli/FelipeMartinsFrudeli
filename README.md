@@ -36,10 +36,10 @@ The kind of engineer hiring managers describe as: *"will leave the system measur
 - **Built offline-first farm-management mobile features** in Android (Kotlin) and React Native, with Crashlytics feedback loops to surface regressions within hours instead of weeks.
 - **Hardened backend services in production** — including the Plantoo work above, where Petri is the contracting party.
 
-### Additional product outcomes
+### Additional product outcomes (Petri-owned software)
 
-- **Comodoro (delivery app):** delivering API and web product evolution for day-to-day delivery operations.
-- **Inovent (ERP):** delivering production ERP flows with structured frontend architecture.
+- **Comodoro (delivery app, owned by Petri):** delivering API and web product evolution for day-to-day delivery operations.
+- **Inovent (ERP + NF-e system, owned by Petri):** delivering production ERP and fiscal-document flows as a complete business system.
 - **IA Flow (support and tickets app):** rebuilt the full system end-to-end to restore support and ticket operation continuity.
 
 ## Open-source
