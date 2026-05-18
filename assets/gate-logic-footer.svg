@@ -1,16 +1,21 @@
 <svg width="1200" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="180" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#05070d"/>
-      <stop offset="1" stop-color="#0b1020"/>
+      <stop offset="0" stop-color="#04070d"/>
+      <stop offset="1" stop-color="#0a1324"/>
     </linearGradient>
-    <linearGradient id="trace" x1="0" y1="90" x2="1200" y2="90" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#35d9ff" stop-opacity="0.15"/>
-      <stop offset="0.5" stop-color="#35d9ff"/>
-      <stop offset="1" stop-color="#35d9ff" stop-opacity="0.15"/>
+    <linearGradient id="bus" x1="90" y1="94" x2="1110" y2="94" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#35d9ff" stop-opacity="0.2"/>
+      <stop offset="0.45" stop-color="#7ef3ff"/>
+      <stop offset="1" stop-color="#35d9ff" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="vital" x1="40" y1="150" x2="1160" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2dc9ff" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#9ff8ff"/>
+      <stop offset="1" stop-color="#2dc9ff" stop-opacity="0.2"/>
     </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -20,52 +25,101 @@
 
   <rect x="0" y="0" width="1200" height="180" rx="18" fill="url(#bg)"/>
 
-  <g opacity="0.16">
-    <path d="M0 40H1200" stroke="#6de8ff" stroke-width="1"/>
-    <path d="M0 70H1200" stroke="#6de8ff" stroke-width="1"/>
-    <path d="M0 110H1200" stroke="#6de8ff" stroke-width="1"/>
-    <path d="M0 140H1200" stroke="#6de8ff" stroke-width="1"/>
-    <path d="M100 0V180" stroke="#6de8ff" stroke-width="1"/>
-    <path d="M260 0V180" stroke="#6de8ff" stroke-width="1"/>
-    <path d="M420 0V180" stroke="#6de8ff" stroke-width="1"/>
-    <path d="M580 0V180" stroke="#6de8ff" stroke-width="1"/>
-    <path d="M740 0V180" stroke="#6de8ff" stroke-width="1"/>
-    <path d="M900 0V180" stroke="#6de8ff" stroke-width="1"/>
-    <path d="M1060 0V180" stroke="#6de8ff" stroke-width="1"/>
+  <g opacity="0.12" stroke="#6de8ff" stroke-width="1">
+    <path d="M0 32H1200"/>
+    <path d="M0 62H1200"/>
+    <path d="M0 92H1200"/>
+    <path d="M0 122H1200"/>
+    <path d="M0 152H1200"/>
+    <path d="M80 0V180"/>
+    <path d="M220 0V180"/>
+    <path d="M360 0V180"/>
+    <path d="M500 0V180"/>
+    <path d="M640 0V180"/>
+    <path d="M780 0V180"/>
+    <path d="M920 0V180"/>
+    <path d="M1060 0V180"/>
   </g>
 
-  <g stroke="#35d9ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M80 90H220V58H340V122H470V90H620V60H760V120H900V90H1120" stroke="url(#trace)"/>
-    <path d="M220 58V122" opacity="0.5"/>
-    <path d="M620 60V120" opacity="0.5"/>
-    <path d="M900 58V122" opacity="0.5"/>
+  <g fill="none" stroke="#a8f5ff" stroke-width="1.7" opacity="0.9">
+    <rect x="90" y="44" width="120" height="38" rx="6"/>
+    <rect x="90" y="98" width="120" height="38" rx="6"/>
+    <rect x="300" y="54" width="64" height="72" rx="6"/>
+    <rect x="412" y="28" width="360" height="108" rx="10"/>
+    <rect x="444" y="44" width="96" height="30" rx="6"/>
+    <rect x="444" y="90" width="96" height="30" rx="6"/>
+    <rect x="562" y="44" width="96" height="30" rx="6"/>
+    <rect x="562" y="90" width="96" height="30" rx="6"/>
+    <rect x="680" y="44" width="60" height="76" rx="6"/>
+    <rect x="854" y="58" width="126" height="64" rx="8"/>
+    <rect x="1020" y="44" width="92" height="38" rx="6"/>
+    <rect x="1020" y="98" width="92" height="38" rx="6"/>
   </g>
 
-  <g fill="none" stroke="#b6f6ff" stroke-width="2.5" opacity="0.95">
-    <path d="M312 48C326 48 338 58 342 72C338 86 326 96 312 96H276V48H312Z"/>
-    <path d="M596 50C610 50 622 60 626 74C622 88 610 98 596 98H560V50H596Z"/>
-    <circle cx="640" cy="74" r="5" fill="#b6f6ff"/>
-    <path d="M840 48C854 48 866 58 870 72C866 86 854 96 840 96H804V48H840Z"/>
-    <path d="M880 48V96"/>
-    <circle cx="892" cy="72" r="5" fill="#b6f6ff"/>
+  <g stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M210 63H300" stroke="url(#bus)"/>
+    <path d="M210 117H300" stroke="url(#bus)"/>
+    <path d="M364 90H412" stroke="url(#bus)"/>
+    <path d="M772 82H854" stroke="url(#bus)"/>
+    <path d="M980 82H1020" stroke="url(#bus)"/>
+    <path d="M772 108H924V136H1020" stroke="#35d9ff" opacity="0.75"/>
+    <path d="M540 58H562" stroke="#35d9ff" opacity="0.8"/>
+    <path d="M540 104H562" stroke="#35d9ff" opacity="0.8"/>
+  </g>
+
+  <g fill="none" stroke="#35d9ff" stroke-width="2.2" opacity="0.95">
+    <path d="M210 63H300" stroke-dasharray="5 7">
+      <animate attributeName="stroke-dashoffset" from="0" to="-70" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M210 117H300" stroke-dasharray="5 7">
+      <animate attributeName="stroke-dashoffset" from="0" to="-70" dur="2.2s" begin="0.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M364 90H412" stroke-dasharray="4 6">
+      <animate attributeName="stroke-dashoffset" from="0" to="-40" dur="1.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M772 82H854" stroke-dasharray="4 7">
+      <animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M980 82H1020" stroke-dasharray="4 6">
+      <animate attributeName="stroke-dashoffset" from="0" to="-30" dur="1.1s" repeatCount="indefinite"/>
+    </path>
   </g>
 
   <g filter="url(#glow)">
-    <circle r="5" fill="#9ff8ff">
-      <animateMotion dur="5.6s" repeatCount="indefinite" path="M80 90H220V58H340V122H470V90H620V60H760V120H900V90H1120"/>
+    <circle r="4.2" fill="#a8fbff">
+      <animateMotion dur="4.8s" repeatCount="indefinite" path="M210 63H300V90H412H772H854H980H1020"/>
     </circle>
-    <circle r="4" fill="#35d9ff" opacity="0.85">
-      <animateMotion dur="5.6s" begin="1.6s" repeatCount="indefinite" path="M80 90H220V58H340V122H470V90H620V60H760V120H900V90H1120"/>
+    <circle r="3.3" fill="#35d9ff" opacity="0.9">
+      <animateMotion dur="4.8s" begin="1.4s" repeatCount="indefinite" path="M210 117H300V90H412H772H854H980H1020"/>
     </circle>
-    <circle r="3.5" fill="#c7fbff" opacity="0.9">
-      <animateMotion dur="5.6s" begin="3.2s" repeatCount="indefinite" path="M80 90H220V58H340V122H470V90H620V60H760V120H900V90H1120"/>
+    <circle r="3" fill="#d2fdff" opacity="0.85">
+      <animateMotion dur="4.8s" begin="2.8s" repeatCount="indefinite" path="M772 108H924V136H1020"/>
     </circle>
   </g>
 
-  <g fill="#a0f3ff" font-family="monospace" font-size="13" letter-spacing="2">
-    <text x="70" y="35">INPUT A</text>
-    <text x="516" y="35">XOR</text>
-    <text x="788" y="35">XNOR</text>
-    <text x="1030" y="35">OUTPUT</text>
+  <g stroke="url(#vital)" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 152H150L168 146L178 156L190 130L202 166L220 152H370L388 146L398 156L410 130L422 166L440 152H590L610 146L620 156L632 130L644 166L662 152H808L826 146L836 156L848 130L860 166L878 152H1038L1058 146L1068 156L1080 130L1092 166L1110 152H1158"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle r="4.6" fill="#9ff8ff">
+      <animateMotion dur="6.2s" repeatCount="indefinite" path="M42 152H150L168 146L178 156L190 130L202 166L220 152H370L388 146L398 156L410 130L422 166L440 152H590L610 146L620 156L632 130L644 166L662 152H808L826 146L836 156L848 130L860 166L878 152H1038L1058 146L1068 156L1080 130L1092 166L1110 152H1158"/>
+    </circle>
+  </g>
+
+  <g fill="#a7f6ff" font-family="monospace" font-size="11" letter-spacing="1.2">
+    <text x="120" y="38">A REG</text>
+    <text x="120" y="146">B REG</text>
+    <text x="312" y="46">OP MUX</text>
+    <text x="548" y="22">ALU CORE</text>
+    <text x="462" y="63">FULL ADDER</text>
+    <text x="462" y="109">XOR/AND/OR</text>
+    <text x="578" y="63">CARRY LOOKAHEAD</text>
+    <text x="582" y="109">SHIFT/ROTATE</text>
+    <text x="689" y="136">FLAGS ENCODER</text>
+    <text x="886" y="52">WRITEBACK BUS</text>
+    <text x="1038" y="38">RESULT</text>
+    <text x="1048" y="146">FLAGS</text>
+    <text x="42" y="171">hardware vitals</text>
   </g>
 </svg>

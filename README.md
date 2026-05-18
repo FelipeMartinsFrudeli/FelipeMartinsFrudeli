@@ -53,5 +53,5 @@ I write English-first for international reach. EU work eligibility (jus sanguini
 - **GitHub:** you are here.
 
 <p align="center">
-  <img src="./assets/gate-logic-footer.svg" alt="Semiconductor-inspired gate logic footer with animated signal pulses." width="900" />
+  <img src="./assets/gate-logic-footer.svg" alt="Semiconductor ALU architecture footer with heartbeat-style hardware vitals animation." width="900" />
 </p>
