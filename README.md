@@ -1,61 +1,93 @@
-# Felipe Frudeli — Engineering Profile
+# Felipe Frudeli
 
-> **Status:** Active · **Track:** Backend / Fullstack engineer · **Next bet:** ASML Application Software, Veldhoven (NL) · **Long arc:** Top-tier global C++ software engineering
+**Engenheiro de Software Backend / Full Stack**  
+TypeScript · Node.js · NestJS · Java · Spring Boot · PostgreSQL · Redis · Docker
 
-## Summary
+Backend, arquitetura e confiabilidade de sistemas. Experiência com aplicações em produção, SaaS multi-tenant, APIs, processamento assíncrono, integrações externas, aplicações offline-first e modernização de sistemas legados.
 
-I move production codebases from "fragile, hard to change" to "stable, safe to ship". Recent example: I led the structural refactor of a Spring Boot 21 platform now serving customers in production — eliminating critical reliability and security risks, reducing maintainability debt by **45%**, and removing a legacy workflows layer that was slowing delivery.
+## Tecnologias
 
-The kind of engineer hiring managers describe as: *"will leave the system measurably better than they found it."*
+**Backend**  
+TypeScript · Node.js · NestJS · Java · Spring Boot · APIs REST · WebSockets
 
-## Background
+**Dados**  
+PostgreSQL · SQL · Redis · TypeORM · Weaviate
 
-- **Country / time zone:** São Paulo, Brazil — open to relocation, EU eligibility track in progress.
-- **Current contract structure:** PJ third-party developer with **Petri Tecnologia** (employer of record) and **Plantoo** (client). Part of the Plantoo delivery flows through the Petri relationship.
-- **Education:** Technical degree in Systems Analysis and Development, ETEC Sales Gomes (Tatuí/SP) — completed 2025.
-- **Working language:** English (technical reading and writing), Portuguese (native).
+**Arquitetura**  
+Arquitetura Hexagonal · SaaS Multi-tenant · Use Cases · IoC · Filas · Workers · RBAC · RAG · Agentes de IA · Eventos de Domínio · Observers
 
-## Outcomes shipped
+**IA / Observabilidade**  
+LangChain · Langfuse · APISIX AI Gateway · LLMs · Busca Vetorial · SonarQube
 
-### AGROOPS - PLANTOO — platform refactor and live-go
+**Infraestrutura**  
+Docker · Linux · CI/CD · Jenkins · AWS
 
-> Owned the structural refactor of the V3 generation of a multi-tenant agribusiness platform, taking it from a fragile state to a controlled production go-live.
+**Frontend**  
+React · React Native
 
-- **Implemented a full backend architecture refactor** with explicit use-case boundaries for authentication, refresh-token control, work-order operations, and remuneration/billing flows.
-- **Reduced maintainability debt by 45%**, which lowered engineering friction and increased delivery speed for new product requests.
-- **Reduced delivery risk by retiring the legacy workflows layer**, which removed hidden coupling and improved incident isolation in production.
-- **Delivered AGROOPS to controlled production go-live** with safer release behavior and better continuity for daily agribusiness operations.
+## Experiência em destaque
 
-### Petri Tecnologia — features delivered into production
+### AGROOPS — Plantoo
 
-- **Shipped a facial-recognition feature** into a live customer product using AWS Rekognition + S3, with fallback behavior to keep core user flows available even when recognition fails.
-- **Built offline-first farm-management mobile features** in React Native, improving field usability under unstable connectivity and reducing blocked operations.
-- **Hardened backend services in production** to support stable daily operation while product scope continued to expand.
+Plataforma multi-tenant para operações do agronegócio.
 
-### Additional product outcomes (Petri-owned software)
+- Migrei um **backend legado em Express.js**, com regras de negócio acopladas aos controllers, para **Spring Boot 21 com arquitetura hexagonal**.
+- Distribuí responsabilidades entre **entidades de domínio ricas, casos de uso e infraestrutura desacoplada por interfaces e IoC**, aumentando a testabilidade.
+- Reduzi a dívida de manutenibilidade em **45%**.
+- Adicionei **testes unitários e de integração** e acompanhei métricas de qualidade com **SonarQube**.
+- Desenvolvi módulo de **controle de ponto com geolocalização e geofences**.
+- Implementei reconhecimento facial com **AWS Rekognition + Amazon S3**.
+- Desenvolvi funcionalidades **offline-first em React Native** para operações agrícolas com conectividade instável.
 
-- **Comodoro (delivery app, owned by Petri):**
-  - Implemented features: delivery-request lifecycle flows, restaurant/driver operational surfaces, and API + web dispatch routines.
-  - Business impact: reduced manual coordination in daily delivery operation and improved execution visibility for dispatch decisions.
-- **Inovent (ERP + NF-e system, owned by Petri):**
-  - Implemented features: ERP management surfaces (settings, users, profiles, permissions, audit logs), fiscal NF-e workflows, and core parties/products operation modules.
-  - Business impact: centralized critical business and fiscal flows in one system, reducing fragmented tooling across administrative operations.
-- **IA Flow (support and tickets app, owned by Petri):**
-  - Implemented features: asynchronous queue processing, ticket lifecycle controls (reminders/auto-close), per-customer ticket views, and dedup protections.
-  - Business impact: stabilized support throughput, reduced duplicate ticket noise, and improved operator response continuity.
+### IA Flow — Petri Tecnologia
 
-## Open-source
+SaaS multi-tenant de atendimento, tickets e automação com agentes de IA.
 
-Active contributor to **[paperclipai/paperclip](https://github.com/paperclipai/paperclip)** — an open-source agent orchestration platform. Push fixes and patterns upstream as part of using it day-to-day. Not employment; part of how I work.
+- Integrei conexões **WhatsApp via Baileys**, isolando a dependência externa em uma **facade** e propagando mudanças por meio de **eventos de domínio e observers**, reduzindo acoplamento entre a integração e as regras de negócio.
+- Desenvolvi agentes de atendimento com **RAG, LangChain e Weaviate**.
+- Estruturei bases de conhecimento com escopo por **empresa, agente, canal e fila**.
+- Implementei ferramentas de agente, handoff para humanos e transferências entre filas.
+- Integrei **APISIX como AI Gateway** para acesso a LLMs, quotas, tokens e custos por empresa.
+- Utilizei **Langfuse** para observabilidade dos fluxos de IA.
+- Implementei processamento assíncrono com **filas e workers**.
+- Desenvolvi ciclo de vida de tickets, lembretes, auto-close, transferências e proteção contra duplicidade.
+- Estruturei isolamento **multi-tenant** de dados, configurações e conhecimento.
+- Desenvolvi testes automatizados de agentes, ferramentas e escalonamento para atendimento humano.
 
-## Direction
+### Inovent — Petri Tecnologia
 
-The 24-month bet is **ASML Application Software in Veldhoven**. The path is a focused C++17/20 ramp tied to ASML's interview bar, running in parallel with continued backend production work and open-source contributions. The longer arc is top-tier global software engineering at C++ depth — measured by external validation, not by self-assessment.
+ERP com módulos administrativos e fiscais.
 
-I write English-first for international reach. EU work eligibility (jus sanguinis) is in progress as a parallel track.
+- Usuários, perfis, permissões e auditoria.
+- Fluxos fiscais e emissão de **NF-e**.
+- Gestão de entidades, produtos e operações administrativas.
 
-## Contact
+### Comodoro — Petri Tecnologia
 
-- **Email:** [contato@felipefrudeli.com](mailto:contato@felipefrudeli.com)
-- **LinkedIn:** [felipe-martins-frudeli](https://linkedin.com/in/felipe-martins-frudeli)
-- **GitHub:** you are here.
+Plataforma de entregas.
+
+- Fluxos de solicitações de entrega.
+- Operação de restaurantes e entregadores.
+- Rotinas de despacho integrando backend e aplicação web.
+
+## Atualmente estudando
+
+- C++17/20
+- Estruturas de dados e algoritmos
+- Arquitetura de computadores
+- Sistemas operacionais
+- Performance
+- Sistemas distribuídos
+
+## Direção técnica
+
+Meu foco atual é continuar como engenheiro Backend enquanto avanço para **C++ e hardware, especialmente software industrial e aplicações relacionadas à indústria de semicondutores.**
+
+## Formação
+
+**Técnico em Desenvolvimento de Sistemas**  
+ETEC Sales Gomes — Tatuí/SP · Concluído em 2025
+
+## Contato
+
+[LinkedIn](https://linkedin.com/in/felipe-frudeli/) · [E-mail](mailto:contato@felipefrudeli.com) · [GitHub](https://github.com/FelipeMartinsFrudeli)
